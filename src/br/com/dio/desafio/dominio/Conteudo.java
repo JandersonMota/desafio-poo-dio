@@ -14,7 +14,7 @@ public abstract class Conteudo {
     }
 
     public void setTitulo(String titulo) {
-        this.titulo = titulo;
+        this.titulo = titulo.toUpperCase();
     }
 
     public String getDescricao() {
@@ -22,6 +22,6 @@ public abstract class Conteudo {
     }
 
     public void setDescricao(String descricao) {
-        this.descricao = descricao;
+        this.descricao = descricao.toUpperCase();
     }
 }
